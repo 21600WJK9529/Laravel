@@ -1,5 +1,5 @@
-Pre requisites to running, have apache and mysql running locally(e.g. using something like xampp)
-To run project use command from the project directory: php artisan serve
+Pre requisites to running, have apache and mysql running locally(e.g. using something like xampp)<br>
+To run project use command from the project directory: php artisan serve<br>
 To create tables use: php artisan migrate
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
