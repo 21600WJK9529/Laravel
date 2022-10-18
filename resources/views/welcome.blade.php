@@ -7,6 +7,13 @@
             {{ session()->get('msg') }}
         </div>
     @endif
+    @if( session()->has('error') )
+        <div class="alert alert-danger">
+            {{ session()->get('error') }}
+        </div>
+    @endif
+
+    <h1> Authors </h1>
     <table class="table">
         <thead>
             <tr>
@@ -24,16 +31,15 @@
                     <td>{{ $author->surname }}</td>
                     <td>
                         <a 
-                         
+                        href="/updateRecord/{{ $author->id }}"
                         class="btn btn-primary">Edit
                         </a>
                         <a 
-                        
+                        href="/delete/{{ $author->id }}"
                         class="btn btn-danger">Delete
                         </a>
                 </tr>
             @endforeach
         </tbody>
-<h1> Home </h1>
 </div>
 @endsection

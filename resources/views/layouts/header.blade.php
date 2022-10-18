@@ -17,10 +17,9 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/">Home</a></li>
-      <li><a href="create">Create</a></li>
-      <li><a href="read">Read</a></li>
-      <li><a href="update">Update</a></li>
-      <li><a href="delete">Delete</a></li>
+      <li><a href="create">Create Author</a></li>
+      <li><a href="createBook">Create Book</a></li>
+      <li><a href="books">View Books</a></li>
     </ul>
   </div>
 </nav>
